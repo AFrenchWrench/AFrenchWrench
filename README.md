@@ -13,7 +13,7 @@
 
 - 💻 CS student with a low-level mind and high-level questions  
 - 🐍 Python-heavy, but C++ is my current curiosity sink  
-- 🛠️ Comfortable across frontend/backend/mobile—especially when it's held together with duct tape and discipline  
+- 🛠️ Comfortable across frontend/backend/data when it's held together with duct tape and discipline  
 - 🌐 System-level thinker: from bitwise to browser, I want to know how and why it ticks  
 - 🧩 My idea of fun is wrestling an algorithm for 3 days because the brute-force “works” and that bothers me
 
