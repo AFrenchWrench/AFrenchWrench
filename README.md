@@ -10,17 +10,17 @@
 - 🎓 CS student with a habit of overanalyzing problems (on purpose)  
 - 🧠 I care about the "why" behind the solution—not just the "how"  
 - 🐍 Python developer who enjoys low-level control (hello C++)  
-- 📱 Working with a Kotlin mobile dev in a React/Django stack  
-- 🌐 I build across web, backend, and mobile—clean code or no code  
+- 🔧 Invested in bridging theory and practice across code, systems, and architecture  
+- 🧪 Always experimenting—be it algorithms, tooling, or clean abstractions
 
 ---
 
 ### 🛠️ Tech Stack
 
 ```yaml
-Languages:     Python, C++, Kotlin (team), JavaScript, HTML/CSS
-Backend:       Django (team), REST APIs
-Frontend:      React (team), TailwindCSS
+Languages:     Python, C++, Kotlin (team), JavaScript (team), HTML/CSS
+Backend:       Django, REST APIs
+Frontend:      React (team), TailwindCSS (team)
 Mobile:        Kotlin (Android)
-Tools:         Git, Linux, VS Code, Figma
-Interests:     Image Processing, Algorithms, Systems Thinking
+Tools:         Git, Docker, Figma (team)
+Interests:     Web, Algorithm, Data, AI
