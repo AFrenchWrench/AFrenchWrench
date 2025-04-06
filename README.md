@@ -1,4 +1,4 @@
-<h1 align="center">Hey, I'm Behdad 👋 | @AFrenchWrench</h1>
+![image](https://github.com/user-attachments/assets/1c7eb309-c277-47c5-8942-8efa01682e86)<h1 align="center">Hey, I'm Behdad 👋 | @AFrenchWrench</h1>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=Code+over+chaos+%F0%9F%92%BB;Python+first%2C+C%2B%2B+close+behind+%F0%9F%90%8D%E2%9E%95;Algorithms+%7C+Systems+%7C+Clean+Designs+%F0%9F%93%90" alt="Typing SVG" />
 </p>
@@ -42,7 +42,7 @@ Interests:     Web, Algorithm, Data, AI
 
 ---
 
-<p align="center">
-  <img src="https://media.tenor.com/OepVMUuDCAUAAAAC/dragon-flying.gif" width="480" />
+<p align="left">
+  <img src="https://media.tenor.com/kGe0A0NBA8kAAAAj/one-piece-pixel.gif" width="480" />
 </p>
 
