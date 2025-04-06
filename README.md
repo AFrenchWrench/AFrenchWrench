@@ -28,3 +28,32 @@ Frontend:      React (team), TailwindCSS (team)
 Mobile:        Kotlin (Android)
 Tools:         Git, Docker, Figma (team)
 Interests:     Web, Algorithm, Data, AI
+```
+
+<h2 align="center">📈 GitHub Stats</h2>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AFrenchWrench&show_icons=true&theme=tokyonight&hide_border=true&icon_color=ff79c6&title_color=8be9fd&text_color=f8f8f2" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=AFrenchWrench&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AFrenchWrench&theme=tokyo-night&hide_border=true" />
+</p>
+
+---
+
+<h2 align="center">✨ Top Languages</h2>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AFrenchWrench&layout=compact&theme=tokyonight&langs_count=8&hide_border=true" />
+</p>
+
+
+<p align="center">
+  <img src="https://media.tenor.com/XwY2FV1Y_ZoAAAAC/hacking-anime.gif" width="480" />
+</p>
+
