@@ -1,6 +1,6 @@
 <h1 align="center">Hey, I'm Behdad 👋 | @AFrenchWrench</h1>
 <p align="center">
-  <i>Calisthenics enthusiast ⚡ | Pythonic mind 🐍 | Coffee-fueled creator ☕ | Always cutting—code or weight 💪</i>
+  <i>💻 Code-driven problem solver ⚙️ | Pythonista with C++ curiosity 🐍➕ | Deep diver into algorithms & systems 🧠 | Front to back: React, Django, APIs, Git 🔄</i>
 </p>
 
 ---
