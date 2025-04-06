@@ -8,13 +8,13 @@
 ### 🚀 About Me
 
 <div align="center">
-  <img src="https://media1.tenor.com/m/8b2-2a17wIAAAAAd/wow-world-of-warcraft.gif" width="320" />
+  <img src="assets/gifs/tenor.gif" width="320" />
 </div>
 
-- 💻 CS student with a low-level mind and high-level questions  
-- 🐍 Python-heavy, but C++ is my current curiosity sink  
-- 🛠️ Comfortable across frontend/backend/data when it's held together with duct tape and discipline  
-- 🌐 System-level thinker: from bitwise to browser, I want to know how and why it ticks  
+- 💻 CS student with a low-level mind and high-level questions
+- 🐍 Python-heavy, but C++ is my current curiosity sink
+- 🛠️ Comfortable across frontend/backend/data when it's held together with duct tape and discipline
+- 🌐 System-level thinker: from bitwise to browser, I want to know how and why it ticks
 - 🧩 My idea of fun is wrestling an algorithm for 3 days because the brute-force “works” and that bothers me
 
 ---
@@ -22,12 +22,12 @@
 ### 🛠️ Tech Stack
 
 ```yaml
-Languages:     Python, C++, Kotlin (team), JavaScript (team), HTML/CSS
-Backend:       Django, REST APIs
-Frontend:      React (team), TailwindCSS (team)
-Mobile:        Kotlin (Android)
-Tools:         Git, Docker, Figma (team)
-Interests:     Web, Algorithm, Data, AI
+Languages: Python, C++, Kotlin (team), JavaScript (team), HTML/CSS
+Backend: Django, REST APIs
+Frontend: React (team), TailwindCSS (team)
+Mobile: Kotlin (Android)
+Tools: Git, Docker, Figma (team)
+Interests: Web, Algorithm, Data, AI
 ```
 
 <h2 align="center">📈 GitHub Stats</h2>
@@ -43,10 +43,8 @@ Interests:     Web, Algorithm, Data, AI
 ---
 
 <p align="left" style="white-space: nowrap;">
-  <img src="https://media.tenor.com/kGe0A0NBA8kAAAAj/one-piece-pixel.gif" width="100" style="display: inline-block; vertical-align: middle;" />
+  <img src="assets/gifs/one-piece-pixel.gif" width="100" style="display: inline-block; vertical-align: middle;" />
   <span style="display: inline-block; vertical-align: middle; padding-left: 10px; white-space: nowrap;">
     <i>"The most dangerous phrase in the language is, 'We've always done it this way.'" – Grace Hopper</i>
   </span>
 </p>
-
-
