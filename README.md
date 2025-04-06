@@ -40,18 +40,7 @@ Interests:     Web, Algorithm, Data, AI
   <img src="https://github-readme-streak-stats.herokuapp.com?user=AFrenchWrench&theme=tokyonight&hide_border=true" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AFrenchWrench&theme=tokyo-night&hide_border=true" />
-</p>
-
 ---
-
-<h2 align="center">✨ Top Languages</h2>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AFrenchWrench&layout=compact&theme=tokyonight&langs_count=8&hide_border=true" />
-</p>
-
 
 <p align="center">
   <img src="https://media.tenor.com/XwY2FV1Y_ZoAAAAC/hacking-anime.gif" width="480" />
