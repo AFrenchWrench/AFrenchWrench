@@ -43,8 +43,8 @@ Interests:     Web, Algorithm, Data, AI
 ---
 
 <p align="left">
-  <img src="https://media.tenor.com/kGe0A0NBA8kAAAAj/one-piece-pixel.gif" width="120" style="display: inline-block;" />
-  <span style="display: inline-block; vertical-align: middle; padding-left: 5px;">
+  <img src="https://media.tenor.com/kGe0A0NBA8kAAAAj/one-piece-pixel.gif" width="150" style="display: inline-block;" />
+  <span style="display: inline-block; vertical-align: left; padding-left: 10px;">
     <i>"The most dangerous phrase in the language is, 'We've always done it this way.'" – Grace Hopper</i>
   </span>
 </p>
