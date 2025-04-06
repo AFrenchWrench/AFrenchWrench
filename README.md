@@ -8,7 +8,7 @@
 ### 🚀 About Me
 
 <div align="center">
-  <img src="https://media.tenor.com/2roX3uxz_68AAAAC/anime-hacker.gif" width="320" />
+  <img src="https://media1.tenor.com/m/8b2-2a17wIAAAAAd/wow-world-of-warcraft.gif" width="320" />
 </div>
 
 - 💻 CS student with a low-level mind and high-level questions  
