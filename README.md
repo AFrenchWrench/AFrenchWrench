@@ -43,6 +43,6 @@ Interests:     Web, Algorithm, Data, AI
 ---
 
 <p align="left">
-  <img src="https://media.tenor.com/kGe0A0NBA8kAAAAj/one-piece-pixel.gif" width="480" />
+  <img src="https://media.tenor.com/kGe0A0NBA8kAAAAj/one-piece-pixel.gif" width="200" />
 </p>
 
