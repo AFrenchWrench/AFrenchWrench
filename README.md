@@ -1,18 +1,17 @@
 <h1 align="center">Hey, I'm Behdad 👋 | @AFrenchWrench</h1>
 <p align="center">
-  <i>💻 Code-driven problem solver ⚙️ | Pythonista with C++ curiosity 🐍➕
-    Deep diver into algorithms & systems 🧠 | Front to back: React, Django, APIs, Git 🔄</i>
+  <i>Code-driven problem solver ⚙️ | Pythonista with C++ curiosity 🐍➕ | Deep diver into algorithms & systems 🧠</i>
 </p>
 
 ---
 
 ### 🚀 About Me
 
-- 🎓 CS student breaking things to understand how they work  
-- 🧠 Deep-thinker, slow-burn learner, zero interest in copy-paste solutions  
-- 🐍 Python dev with a love for clean code and clean pull-ups  
-- 📷 Building a personal brand across platforms [@afrenchwrench](https://www.instagram.com/afrenchwrench)  
-- ☀️ Wakes up at 5AM to train like Batman and code like Bruce Wayne  
+- 🎓 CS student with a habit of overanalyzing problems (on purpose)  
+- 🧠 I care about the "why" behind the solution—not just the "how"  
+- 🐍 Python developer who enjoys low-level control (hello C++)  
+- 📱 Working with a Kotlin mobile dev in a React/Django stack  
+- 🌐 I build across web, backend, and mobile—clean code or no code  
 
 ---
 
