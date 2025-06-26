@@ -22,11 +22,9 @@
 ### 🛠️ Tech Stack
 
 ```yaml
-Languages: Python, C++, Kotlin (team), JavaScript (team), HTML/CSS
-Backend: Django, REST APIs
-Frontend: React (team), TailwindCSS (team)
-Mobile: Kotlin (Android)
-Tools: Git, Docker, Figma (team)
+Languages: Python, C++, HTML/CSS
+Backend: Django, REST APIs, GraphQL
+Tools: Git, Docker
 Interests: Web, Algorithm, Data, AI
 ```
 
