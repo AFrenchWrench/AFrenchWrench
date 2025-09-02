@@ -23,9 +23,9 @@
 
 ```yaml
 Languages: Python, C++, HTML/CSS
-Backend: Django, REST APIs, GraphQL
-Tools: Git, Docker
-Interests: Web, Algorithm, Data, AI
+Backend: Django, FastAPI, REST APIs, GraphQL
+Tools & Technologies: Git, Docker, Celery, Redis, Selenium
+Interests: Web Development, Algorithms & Problem Solving, Data Engineering & Analytics, AI
 ```
 
 <h2 align="center">📈 GitHub Stats</h2>
