@@ -28,16 +28,6 @@ Tools & Technologies: Git, Docker, Celery, Redis, Selenium
 Interests: Web Development, Algorithms & Problem Solving, Data Engineering & Analytics, AI
 ```
 
-<h2 align="center">📈 GitHub Stats</h2>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AFrenchWrench&show_icons=true&theme=tokyonight&hide_border=true&icon_color=ff79c6&title_color=8be9fd&text_color=f8f8f2" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=AFrenchWrench&theme=tokyonight&hide_border=true" />
-</p>
-
 ---
 
 <p align="left" style="white-space: nowrap;">
