@@ -12,18 +12,12 @@
   <img src="assets/gifs/tenor.gif" width="320" />
 </div>
 
-I'm a backend developer with 3+ years of experience building and deploying production web applications.
+Backend developer focused on Django, APIs, databases, and infrastructure.
 
-Most of my work revolves around designing APIs, modeling databases, optimizing performance, and making sure systems stay maintainable long after the excitement of the first deployment wears off.
+I enjoy building systems that are simple to use, difficult to break, and easy to maintain.
+Most of my time is spent somewhere between designing APIs, optimizing queries, deploying services, and wondering who wrote the SQL I'm currently looking at.
 
-A few things I enjoy:
-
-* 🐍 Building backend systems with Django, DRF, and FastAPI
-* ⚡ Designing GraphQL and REST APIs that don't become maintenance nightmares
-* 🗄️ Working with PostgreSQL, Redis, and data-heavy applications
-* 🐳 Deploying services with Docker, Nginx, Linux, and VPS infrastructure
-* 🔒 Learning how systems break so I can build them more securely
-* 🧩 Solving algorithmic problems because "it works" isn't always a satisfying answer
+Outside of development, I compete in programming contests and study computer science.
 
 ---
 
@@ -89,8 +83,9 @@ Concepts:
 
 ---
 
-<p align="left">
-  <img src="assets/gifs/one-piece-pixel.gif" width="100" />
+<p align="left" style="white-space: nowrap;">
+  <img src="assets/gifs/one-piece-pixel.gif" width="100" style="display: inline-block; vertical-align: middle;" />
+  <span style="display: inline-block; vertical-align: middle; padding-left: 10px; white-space: nowrap;">
+    <i>"The most dangerous phrase in the language is, 'We've always done it this way.'" – Grace Hopper</i>
+  </span>
 </p>
-
-<i>"Programs must be written for people to read, and only incidentally for machines to execute."</i><br> <b>— Harold Abelson</b>
