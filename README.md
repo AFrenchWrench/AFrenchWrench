@@ -1,13 +1,5 @@
 <h1 align="center">Behdad Sayadi 👋 | @AFrenchWrench</h1>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Backend+Developer+%7C+Django+%7C+GraphQL;Building+production-grade+systems+since+2022;REST+APIs+%7C+Redis+%7C+Docker+%7C+PostgreSQL;Turning+requirements+into+maintainable+software" alt="Typing SVG" />
-</p>
-
----
-
-## 🚀 About Me
-
 <div align="center">
   <img src="assets/gifs/tenor.gif" width="320" />
 </div>
