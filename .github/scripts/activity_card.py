@@ -8,6 +8,8 @@ import datetime as dt
 import json
 import os
 import sys
+import time
+import urllib.error
 import urllib.request
 from xml.sax.saxutils import escape
 
@@ -26,23 +28,31 @@ query($login: String!) {
 
 BG, BORDER = "#0d0f13", "#262b33"
 TEXT, MUTED, FAINT, ACCENT = "#eef0f2", "#8a919c", "#5b6169", "#c9a227"
-# Separate <text> runs placed by an approximate monospace advance, instead of
-# <tspan> flow, which some SVG renderers lay out inconsistently.
-CHAR_W = 7.6
 MONO = "ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,'Liberation Mono',monospace"
 
 
-def fetch_calendar(login, token):
+def fetch_calendar(login, token, attempts=3):
     req = urllib.request.Request(
         "https://api.github.com/graphql",
         data=json.dumps({"query": QUERY, "variables": {"login": login}}).encode(),
         headers={"Authorization": f"bearer {token}", "User-Agent": "profile-activity-card"},
     )
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        payload = json.load(resp)
-    if "errors" in payload:
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                payload = json.load(resp)
+            break
+        except (urllib.error.URLError, TimeoutError) as exc:
+            if attempt == attempts:
+                raise SystemExit(f"GitHub API unreachable after {attempts} attempts: {exc}")
+            time.sleep(5 * attempt)
+
+    if payload.get("errors"):
         raise SystemExit(f"GraphQL error: {payload['errors']}")
-    return payload["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+    user = (payload.get("data") or {}).get("user")
+    if user is None:
+        raise SystemExit(f"GitHub user {login!r} not found")
+    return user["contributionsCollection"]["contributionCalendar"]
 
 
 def summarize(calendar):
@@ -89,13 +99,13 @@ def plural(n, word):
 def render(s, today):
     width, pad = 495, 24
     rows = [
-        ("contributions", f"{s['total']:,}", "in the last year"),
-        ("active days", str(s["active"]), ""),
-        ("longest streak", plural(s["longest"], "day"), ""),
-        ("current streak", plural(s["current"], "day"), ""),
-        ("busiest day", s["busiest"], ""),
+        ("contributions", f"{s['total']:,}"),
+        ("active days", str(s["active"])),
+        ("longest streak", plural(s["longest"], "day")),
+        ("current streak", plural(s["current"], "day")),
+        ("busiest weekday", s["busiest"]),
     ]
-    row_top, row_h = 72, 21
+    row_top, row_h = 66, 21
     bars_top = row_top + len(rows) * row_h + 6
     bars_h = 34
     height = bars_top + bars_h + 36
@@ -106,19 +116,16 @@ def render(s, today):
         f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="12" fill="{BG}" stroke="{BORDER}"/>',
         f'<g font-family="{MONO}" font-size="12.5">',
     ]
-    for i, color in enumerate(("#3a3f47", "#3a3f47", "#3a3f47")):
-        out.append(f'<circle cx="{pad + i * 16}" cy="22" r="4.5" fill="{color}"/>')
+    for i in range(3):
+        out.append(f'<circle cx="{pad + i * 16}" cy="24" r="4.5" fill="#3a3f47"/>')
     out.append(
-        f'<text x="{pad}" y="52" fill="{FAINT}">$</text>'
-        f'<text x="{pad + CHAR_W * 2}" y="52" fill="{MUTED}">git log --since="1 year ago" | summarize</text>'
+        f'<text x="{width / 2:.0f}" y="28" fill="{FAINT}" font-size="11.5" text-anchor="middle">'
+        "github activity · last 12 months</text>"
     )
-    for i, (label, value, note) in enumerate(rows):
+    for i, (label, value) in enumerate(rows):
         y = row_top + i * row_h
         out.append(f'<text x="{pad}" y="{y}" fill="{MUTED}">{escape(label)}</text>')
         out.append(f'<text x="{pad + 150}" y="{y}" fill="{TEXT}">{escape(value)}</text>')
-        if note:
-            note_x = pad + 150 + CHAR_W * (len(value) + 1)
-            out.append(f'<text x="{note_x:.0f}" y="{y}" fill="{FAINT}">{escape(note)}</text>')
 
     weekly = s["weekly"]
     peak = max(weekly) or 1
@@ -131,7 +138,7 @@ def render(s, today):
             f'height="{h}" rx="1.5" fill="{ACCENT}" opacity="{opacity}"/>'
         )
     out.append(
-        f'<text x="{pad}" y="{height - 14}" fill="{FAINT}" font-size="10.5">52 weeks, one bar each</text>'
+        f'<text x="{pad}" y="{height - 14}" fill="{FAINT}" font-size="10.5">contributions per week</text>'
         f'<text x="{width - pad}" y="{height - 14}" fill="{FAINT}" font-size="10.5" text-anchor="end">'
         f"updated {today.isoformat()}</text>"
     )

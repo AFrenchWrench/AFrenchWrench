@@ -1,30 +1,30 @@
 name: profile assets
 
 # Regenerates the contribution snake and the activity card, and publishes them
-# to the `output` branch that README.md loads images from.
+# to the `output` branch that README.md loads images from. The `output` branch
+# holds nothing else and is rewritten on every run; no other branch is touched.
 on:
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [".github/**"]
-
-permissions:
-  contents: write
 
 concurrency:
   group: profile-assets
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
 
-      - uses: Platane/snk/svg-only@v3
+      - name: Contribution snake
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -37,7 +37,17 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           GH_LOGIN: ${{ github.repository_owner }}
 
-      - uses: crazy-max/ghaction-github-pages@v5
+      # Publishing force-pushes `output`, so never publish a partial set.
+      - name: Check generated files
+        run: |
+          for f in snake-light.svg snake-dark.svg activity.svg; do
+            test -s "dist/$f" || { echo "::error::dist/$f missing or empty"; exit 1; }
+            head -c 200 "dist/$f" | grep -q '<svg' || { echo "::error::dist/$f is not an SVG"; exit 1; }
+          done
+          ls -l dist
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
