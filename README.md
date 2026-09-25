@@ -4,74 +4,50 @@
   <img src="assets/gifs/tenor.gif" width="320" />
 </div>
 
-Backend developer focused on Django, APIs, databases, and infrastructure.
+<p align="center">
+  <code>backend · databases · infrastructure</code><br/>
+  <sub>Python, PostgreSQL, and an unreasonable number of terminal tabs.</sub>
+</p>
 
-I enjoy building systems that are simple to use, difficult to break, and easy to maintain.
-Most of my time is spent somewhere between designing APIs, optimizing queries, deploying services, and wondering who wrote the SQL I'm currently looking at.
+<p align="center">
+  <a href="https://afrenchwrench.com">afrenchwrench.com</a> ·
+  <a href="https://www.linkedin.com/in/afrenchwrench/">linkedin</a> ·
+  <a href="mailto:AFrenchWrench@gmail.com">email</a>
+</p>
 
-Outside of development, I compete in programming contests and study computer science.
+## Territory
 
----
-
-## 🛠️ Tech Stack
-
-```yaml
-Languages:
-  - Python
-  - C++
-  - SQL
-  - HTML/CSS
-
-Backend:
-  - Django
-  - Django REST Framework
-  - FastAPI
-  - Graphene-Django
-  - REST APIs
-  - GraphQL
-
-Databases:
-  - PostgreSQL
-  - MySQL
-  - SQLite
-  - MongoDB
-
-Infrastructure:
-  - Docker
-  - Nginx
-  - Linux
-  - Celery
-  - Redis
-  - Git
-
-Security:
-  - XSS
-  - CSRF
-  - SQL Injection
-  - SSRF
-  - SSTI
-  - Access Control
-
-Concepts:
-  - System Design
-  - Database Design
-  - Algorithms & Data Structures
-  - ORM Optimization
-  - Clean Architecture
-  - Performance Engineering
+```text
+home          Python · Django · PostgreSQL · APIs · backend architecture
+next door     DRF · FastAPI · Redis · Celery · SQL
+basement      Docker · Linux · Nginx
+side streets  PostGIS · GraphQL · C++
+late nights   security · performance · algorithms
 ```
 
----
+## GitHub things
 
-## 🏆 Highlights
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AFrenchWrench/AFrenchWrench/output/activity.svg" alt="GitHub activity over the last year" width="495" />
+</p>
 
-* 🥇 [1st Place — Golestan University Algorithmic Contest (2025)](https://certs.afrenchwrench.com/Golestan-Uni-Contest.jpg)
-* 🥇 [1st Place — IAU Babol Algorithmic Contest (2025)](https://certs.afrenchwrench.com/IAU-Babol-Uni-Contest.jpg)
-* 🏅 [12th Place — TechOlympics Python/Django Track (2025)](https://quera.org/certificate/qsh8y2dr/)
-* 🏅 [15th Place — TechOlympics Python/Django Track (2024)](https://quera.org/certificate/25kBHam5/)
-* 👨‍💻 [Backend Developer at Developeria](https://www.instagram.com/developeria_/)
-* 🚀 Founder & Engineering Lead at Kaizen Dev Team
-* 🌍 Built and deployed production platforms used in real-world environments
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AFrenchWrench/AFrenchWrench/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/AFrenchWrench/AFrenchWrench/output/snake-light.svg" alt="A snake eating the contribution graph" width="100%" />
+</picture>
+
+<sub>Both regenerated daily from the contribution calendar.</sub>
+
+## Currently
+
+```text
+currently/
+├── making queries do less work
+├── reading framework source instead of guessing
+├── finding race conditions before users do
+├── solving algorithm problems nobody asked me to solve
+└── losing to Docker networking, occasionally
+```
 
 ---
 
