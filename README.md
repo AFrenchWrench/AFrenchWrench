@@ -37,7 +37,6 @@ late nights   security · performance · algorithms
   <img src="https://raw.githubusercontent.com/AFrenchWrench/AFrenchWrench/output/snake-light.svg" alt="A snake eating the contribution graph" width="100%" />
 </picture>
 
-<sub>Both regenerated daily from the contribution calendar.</sub>
 
 ## Currently
 
